@@ -41,24 +41,25 @@ h4{
     }
     .left,.middle,.right{
         transform: scale(.7);
+        font-weight:bold;
     }
 }
 
 @media screen and (max-width:730px) {
     .main{
         flex-wrap: wrap;
+        font-weight:bold;
     }
 
 }
 @media screen and (max-width:445px) {
     .main{
         flex-wrap: wrap;
-        
-
     }
     .left,.middle,.right{
         transform: scale(.5);
         margin-top: -2.5rem;
+        font-weight:bold;
     }
 
 }
